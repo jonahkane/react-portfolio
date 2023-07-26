@@ -5,13 +5,13 @@ import About from "./components/AboutMe";
 import Contact from "./components/ContactMe";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
-// import Navbar from
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Navbar/> */}
+        <Navbar />
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
